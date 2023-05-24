@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="fr-name">
+            <h1>XYZ</h1>
+        </div>
+        <div id="main-menu">
+            <a href="" class="menu-nav">HOME</a>
+            <a href="#about"  class="menu-nav">ABOUT</a>
+        </div>
+    </nav>
+    <section id="hello-site">
+        <div id="main-left">
+            <h2>We'll build<br> your house</h2>
+            <p id="under-text">We have 1000+ build house with as clients</p>
+            <div id="buttons-main">
+               <a href="gallery.html"><button id="left-button">Gallery</button></a>
+                <a href="#contact"><button id="right-button">Contact</button></a>
+            </div>
+        </div>
+        <div id="right-site">
+            <img src="photo/mainphoto.png.png" alt="" style="width:100%; height:100%;object-fit: contain;">
+        </div>
+    </section>
+    <article id="offerts">
+        <div class="offert" style="background-color: #69625B;">
+            <div>
+                <p class="title">Flexible Services</p>
+                <p class="text-offert">Smart solutions for all your charter requirements</p>
+            </div>
+            <div>
+                <button id="offert-button">See all</button>
+            </div>
+        </div>
+        <div class="offert">
+            <div>
+                <p class="title">We deal witch official matters</p>
+                <p class="text-offert">You don’t have to worry about any thing</p>
+            </div>
+            <img src="photo/urzadphoto.png" alt="" style="width: 95%; height:50%; padding: 10px;">
+        </div>
+        <div class="offert" style="background-color: #69625B;">
+            <div>
+                <p class="title">We build your house</p>
+                <p class="text-offert">It takes only few months </p>
+            </div>
+            <img src="photo/photoarch.jpg" alt="" style="width: 90%; height:50%; position: relative;">
+            <button id="offert-button">Get started</button>
+        </div>
+    </article>
+    <section id="about">
+        <div id="text-about">
+            <h4>We are family company  </h4>
+            <p id="p-about">This company was started in 1882 by Nikola Tesla. 
+                Who wonted to bulid his own hosue, but he liked this.
+                And now main CEO is his grandson Mark Tesla.
+                Main hedquaters is in New Jork.</p>
+        </div>
+        <img src="photo/pexels-jason-toevs-2069903.jpg" alt="" id="photo-about">
+    </section>
+    <section id="contact">
+        <form action="wyslij.php" method="post">
+        <div id="inputs-area">
+            <div id="name-surname">
+                <div class="first-inputs">
+                    <input type="text" required="required" name="name" class="input">
+                    <span>First name</span>
+                </div>
+                <div class="first-inputs">
+                    <input type="text"  required="required" name="surname" class="input">
+                    <span>Surname</span>
+                </div>
+            </div>
+                <div class="sec-inputs">
+                    <input type="text" required="required" name="name" class="input">
+                    <span>Email</span>
+                </div>
+                <div class="sec-inputs">
+                    <input type="text" required="required" name="name" class="input">
+                    <span>Title</span>
+                </div>
+                <div class="sec-inputs">
+                    <textarea type="text" required="required" name="name" class="input"></textarea>
+                    <span>Message</span>
+                </div>
+            <button  id="send-button" type="submit">Send</button>
+        </div>
+    </form>
+    </section>
+    <footer style="text-align: center;">
+        <p>Website designed and coding by Ink03</p>
+    </footer>
+</body>
+</html>
